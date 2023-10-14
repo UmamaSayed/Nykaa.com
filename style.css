@@ -24,6 +24,18 @@ body {
     justify-content: space-between;
 
 }
+/* .left-div :hover{
+    cursor: pointer;
+    color: white;
+} */
+.offer-banner :hover{
+    color: white;
+    cursor: pointer;
+}
+.right-div li :hover {
+    color: white;
+    fill: white;
+}
 .left-div{
     display: flex;
     align-items: center;
@@ -60,8 +72,14 @@ a {
     font-weight: 300;
 
 }
-.ts-icon span{
-    font-size:2.5 rem ;
+.right-div ul a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-div svg{
+    height: 24px;
+    margin-right: 5px;
 }
 .header2{
     height: 66px;
