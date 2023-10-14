@@ -14,7 +14,6 @@ body {
     padding: 0px 70px;
     background-image:url('./topban.jpg');;
     font-weight: 300;
-    
 }
 .offer-banner{
    
@@ -222,4 +221,22 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* main wrapper styling */
+.wrapper{
+    height: 40px;
+    margin-top: 5px;
+    position: absolute;
+}
+.wrapper img {
+    position: absolute;
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    outline: rgb(0, 0, 0) solid 0px;
+    outline-offset: 0px;
+}
+p{
+    padding-top: 40px;
 }
