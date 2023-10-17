@@ -139,6 +139,13 @@ a {
 .nav2-menu ul li{
    padding: 0px 16px;
 }
+/* stickynavbar properties */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
 .inputs{
     border: 1px solid rgba(151,151,151,0.1);
     border-radius: 4px;
@@ -236,6 +243,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: -50px;
 }
 /* main wrapper styling */
 .wrapper{
@@ -334,4 +342,19 @@ img .backBtn .nextBtn{
   }
   .gallery-wrap i:last-child{
     right: 35px;
+  }
+  /* banner styling */
+  .banner{
+    width: 1263px;
+    height: 368px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+  }
+  .banner img{
+    position: absolute;
+    width: 1167px;
+    height: 344px;
+    border-radius: 8px;
   }
