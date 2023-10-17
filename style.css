@@ -287,30 +287,11 @@ a {
 .gallery::-webkit-scrollbar{
     display: none;
 }
-/* #nextBtn{
-    background: url();
-    
-} */
-/* background: url(https://images-static.nykaa.com/uploads/45d5a7b6-86eb-4850-9568-4d6ed91731fe.svg);
-    background-repeat: no-repeat;
-    -webkit-transform: initial;
-    -ms-transform: initial;
-    transform: initial;
-    height: 56px;
-    width: 56px;
-    top: 45%;
-    content: "";
-    display: inline-block;
-    position: absolute;
-    right: 8px;
-    border: 0;
-    cursor: pointer;
-    z-index: 2;
-} */
+
 .gallery-wrap img{
     height: 56px;
     width: 56px;
-    /* filter: grayscale(100%); */
+    
     
 }
 .gallery-wrap{
@@ -318,27 +299,8 @@ a {
     align-items: center;
     justify-content: center;
 }
-/* .gallery-wrap #nextBtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #797979;
-    top: 50%;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    font-size: 1.25rem;
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    background: #fff;
-    border: none;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
-  } */
-  img .backBtn .nextBtn{
+    
+img .backBtn .nextBtn{
     width: 56px;
     cursor: pointer;
     overflow: hidden;
@@ -346,7 +308,6 @@ a {
   .gallery div img:hover{
     filter: grayscale(0);
     cursor: pointer;
-    /* transform: scale(1.1); */
   }
   .gallery-wrap i {
     top: 56%;
